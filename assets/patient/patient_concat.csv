@@ -1,0 +1,656 @@
+,message,message_type
+0,Hi,patient_greet
+1,Hello,patient_greet
+2,Hey there,patient_greet
+3,Good morning,patient_greet
+4,Good afternoon,patient_greet
+5,Good evening,patient_greet
+6,Hi there,patient_greet
+7,Howdy,patient_greet
+8,Greetings,patient_greet
+9,Yo,patient_greet
+10,What's up?,patient_greet
+11,Hey!,patient_greet
+12,Morning,patient_greet
+13,Afternoon,patient_greet
+14,Evening,patient_greet
+15,Sup?,patient_greet
+16,Hola,patient_greet
+17,Bonjour,patient_greet
+18,Salutations,patient_greet
+19,Wassup?,patient_greet
+20,Aloha,patient_greet
+21,How's it going?,patient_greet
+22,Hiya,patient_greet
+23,Namaste,patient_greet
+24,Top of the morning to you,patient_greet
+25,Good day,patient_greet
+26,Konnichiwa,patient_greet
+27,G'day mate,patient_greet
+28,Shalom,patient_greet
+29,"Hey, how are you?",patient_greet
+30,Good to see you,patient_greet
+31,Ciao,patient_greet
+32,Guten Tag,patient_greet
+33,"Hey, what's going on?",patient_greet
+34,"Hello, how can I assist you?",patient_greet
+35,Hallo,patient_greet
+36,Hello there,patient_greet
+37,What's cracking?,patient_greet
+38,Good vibes!,patient_greet
+39,How are you doing today?,patient_greet
+40,'Sup?,patient_greet
+41,What's the good word?,patient_greet
+42,How's everything?,patient_greet
+43,Long time no see,patient_greet
+44,"Well, hello!",patient_greet
+45,How's your day?,patient_greet
+46,Good to meet you,patient_greet
+47,"Hi, nice to meet you",patient_greet
+48,What's happening?,patient_greet
+49,What's the news?,patient_greet
+50,How have you been?,patient_greet
+51,"Hello, stranger!",patient_greet
+52,"Hi, long time no talk!",patient_greet
+53,"Hey, how's life treating you?",patient_greet
+54,How's your day been so far?,patient_greet
+55,"Hi, it's been a while!",patient_greet
+56,"Hello, how's everything going?",patient_greet
+57,"Hi, how's your week going?",patient_greet
+58,Good to see you again!,patient_greet
+59,"Hello, nice to meet you!",patient_greet
+60,"Hi, how's your day going?",patient_greet
+61,"Hey, what's new with you?",patient_greet
+62,"Hello, what's been happening?",patient_greet
+63,"Hi, how have you been lately?",patient_greet
+64,"Hey, how are things with you?",patient_greet
+65,"Hi, how's your family doing?",patient_greet
+66,"Hello, how's work been?",patient_greet
+67,"Hi, what's the latest gossip?",patient_greet
+68,"Hey, how's the weather where you are?",patient_greet
+69,"Hello, what's on your mind?",patient_greet
+70,"Hi, did you have a good weekend?",patient_greet
+71,"Hey, how's your health?",patient_greet
+72,"Hello, how was your day?",patient_greet
+73,"Hi, any exciting plans for today?",patient_greet
+74,"Hey, how's your pet doing?",patient_greet
+75,"Hello, how's your project coming along?",patient_greet
+76,"Hi, what have you been up to?",patient_greet
+77,"Hey, how's your job going?",patient_greet
+78,"Hello, how's your hobby coming along?",patient_greet
+79,"Hi, how's your exercise routine?",patient_greet
+80,"Hey, how's your diet going?",patient_greet
+81,"Hello, what's your favorite hobby?",patient_greet
+82,"Hi, how's your latest book/movie?",patient_greet
+83,"Hey, how's your latest project?",patient_greet
+84,"Hello, any interesting news lately?",patient_greet
+85,"Hi, how's your latest trip?",patient_greet
+86,"Hey, how's your latest adventure?",patient_greet
+87,"Hello, how's your latest game?",patient_greet
+88,"Hi, how's your latest purchase?",patient_greet
+89,"Hey, how's your latest recipe?",patient_greet
+90,"Hello, how's your latest achievement?",patient_greet
+91,"Hi, how's your latest goal?",patient_greet
+92,"Hey, how's your latest workout routine?",patient_greet
+93,"Hello, how's your latest skill improvement?",patient_greet
+94,"Hi, how's your latest challenge?",patient_greet
+95,"Hey, how's your latest accomplishment?",patient_greet
+96,"Hello, how's your latest endeavor?",patient_greet
+97,"Hi, how's your latest venture?",patient_greet
+98,"Hey, how's your latest success?",patient_greet
+99,"Hello, how's your latest failure?",patient_greet
+100,Hello!,patient_greet
+101,Hi there!,patient_greet
+102,Good morning!,patient_greet
+103,Good afternoon!,patient_greet
+104,Good evening!,patient_greet
+105,Hey!,patient_greet
+106,Greetings!,patient_greet
+107,Howdy!,patient_greet
+108,Salutations!,patient_greet
+109,"I've been forgetting things more often lately, like appointments or where I put my keys. I'm worried it might be something more serious.",patient_issue
+110,"I used to be really good at remembering names and faces, but now I struggle. Should I be concerned?",patient_issue
+111,"I'm trying to learn a new language, but it seems much harder than it should be. I can't seem to retain the information.",patient_issue
+112,I recently changed jobs and I'm having trouble picking up the new procedures. It's frustrating because I used to be a quick learner.,patient_issue
+113,I can't seem to focus on tasks for very long anymore. My mind keeps wandering.,patient_issue
+114,It's hard for me to follow conversations or read a book without getting easily distracted.,patient_issue
+115,I've been having trouble making decisions lately. It feels like I'm overthinking everything.,patient_issue
+116,I've noticed I'm more easily confused or forgetful than usual. Is this a sign of aging or something else?,patient_issue
+117,My child seems to be lagging behind their peers in terms of learning and development. I'm concerned they might have a learning disability.,patient_issue
+118,My child struggles to pay attention in school and has difficulty following instructions. Should I get them tested?,patient_issue
+119,"My child is getting good grades, but they seem to put in a lot more effort than their classmates. I wonder if there's an underlying issue.",patient_issue
+120,"My child is bright, but they struggle with specific subjects like reading or math. Could this be a sign of a learning disability?",patient_issue
+121,My child has been having trouble controlling their emotions and behavior lately. It's impacting their ability to learn and socialize.,patient_issue
+122,My child is very impulsive and makes careless mistakes. Could this be related to a cognitive issue?,patient_issue
+123,My child has trouble understanding social cues and interacting with other children. I'm worried they might have autism or another social disorder.,patient_issue
+124,My child seems withdrawn and isolated. They don't seem interested in making friends.,patient_issue
+125,There's a history of learning disabilities in my family. I'm concerned my child might also be affected.,patient_issue
+126,My child's close relative has ADHD. I'm curious if a cognitive assessment might be helpful for my child as well.,patient_issue
+127,"My teenager is incredibly shy and avoids social situations. They have trouble making friends, and I'm worried they're lonely. Could social anxiety be playing a role? A cognitive assessment might help us understand their thought patterns better.",patient_issue
+128,I recently started a new job and I feel immense pressure to perform well in social settings with colleagues. I experience physical symptoms like sweating and trembling during meetings. Is this normal anxiety or something more?,patient_issue
+129,"My child has developed a routine of checking their homework and belongings repeatedly, even though they know they've done everything correctly. It's impacting their daily life. Could this be OCD?",patient_issue
+130,"I'm constantly worried about germs and contamination, even though I know it's unlikely. I spend a lot of time cleaning and washing my hands. A cognitive assessment might help me understand these intrusive thoughts better.",patient_issue
+131,"I'm constantly worried about the future, even about minor things. It's difficult to relax and enjoy the present moment. A cognitive assessment might help me identify any underlying thought patterns contributing to this anxiety.",patient_issue
+132,"My child gets very anxious during exams and standardized tests, even though they're well-prepared. This anxiety seems to be affecting their performance. Could cognitive assessment help identify any underlying causes?",patient_issue
+133,"I experience intense anxiety during presentations or important meetings at work. My mind goes blank, and I struggle to focus or recall information. Is there a cognitive reason behind this performance anxiety?",patient_issue
+134,My teenager has been experiencing episodes of sudden and intense fear that come on out of the blue. They have difficulty breathing and feel like they're going to faint. Could this be related to panic attacks? A cognitive assessment might be helpful.,patient_issue
+135,I sometimes experience overwhelming anxiety that manifests as physical symptoms like racing heart and shortness of breath. Is this a sign of an underlying cognitive issue related to anxiety?,patient_issue
+136,My child consistently scores poorly in school. An IQ test could help identify any underlying cognitive issues that might be hindering their learning.,patient_issue
+137,My child seems to grasp concepts very quickly and demonstrates advanced skills for their age. An IQ test could confirm their giftedness and help us find appropriate educational resources.,patient_issue
+138,My child struggles with reading comprehension despite having strong decoding skills. An IQ test could be used alongside other assessments to understand if there's a specific learning disability like dyslexia.,patient_issue
+139,"My child seems bright and engaged in conversations, but their test scores and school performance don't reflect their potential. An IQ test might shed light on a possible learning disability.",patient_issue
+140,"We're considering enrolling our exceptionally bright child in school a year earlier. An IQ test, along with other assessments, could be used to determine their academic readiness.",patient_issue
+141,My child is well past the typical milestone for speech development and hasn't started using words yet. They seem more interested in objects than interacting with people. Could this be autism?,patient_issue
+142,My child often repeats phrases or entire sentences I say (echolalia). They also engage in repetitive speech patterns about specific topics. Should I get them assessed for autism?,patient_issue
+143,My child prefers solitary play and seems to have trouble understanding nonverbal cues like facial expressions or body language. This makes it difficult for them to make friends.,patient_issue
+144,My child makes minimal eye contact during conversations and seems less interested in social interaction compared to other children. An autism assessment might be helpful to understand their social development.,patient_issue
+145,"My child has strong reactions to certain sounds, textures, or lights. They might become overwhelmed or distressed in specific sensory environments. Is this related to autism?",patient_issue
+146,"My child gets very upset when their routines are disrupted, even minor changes. They insist on things being done in a specific way. Could this be rigidity associated with autism?",patient_issue
+147,"I'm unsure what career path to pursue. Taking a personality test might help me identify my strengths and interests, leading me towards a more fulfilling career choice.",patient_issue
+148,I sometimes struggle to communicate effectively with colleagues. A personality test could provide insights into my communication style and how I can better connect with others.,patient_issue
+149,I'm interested in learning more about myself and my personality traits. Taking a personality test might reveal areas for personal growth and development.,patient_issue
+150,"I know I have certain biases, but I'm not sure what they are. A personality test could help me identify any blind spots I might have in my personality.",patient_issue
+151,My partner and I sometimes misunderstand each other. Taking personality tests together could shed light on our communication styles and help us connect better.,patient_issue
+152,"I'm looking for a potential long-term partner with compatible values. Personality tests might give some insight into values and preferences, although real-life interaction is still crucial.",patient_issue
+153,There's a lot of tension in my family. Personality tests could help us understand underlying personality traits and improve communication within the family unit.,patient_issue
+154,"Some dating apps incorporate personality tests into their matching algorithms. This might help me connect with individuals who share similar traits and interests, leading to more compatible matches.",patient_issue
+155,I've been feeling really down lately.,patient_issue
+156,I don't have motivation to do anything anymore.,patient_issue
+157,It's like I'm stuck in a dark cloud.,patient_issue
+158,I've been crying a lot and I don't know why.,patient_issue
+159,I feel empty inside.,patient_issue
+160,I'm struggling to get out of bed in the mornings.,patient_issue
+161,Everything feels overwhelming.,patient_issue
+162,I feel hopeless about the future.,patient_issue
+163,I can't concentrate on anything.,patient_issue
+164,I'm not enjoying things I used to love.,patient_issue
+165,I feel like a burden to everyone.,patient_issue
+166,I have trouble sleeping at night.,patient_issue
+167,I feel restless and irritable.,patient_issue
+168,I feel disconnected from everyone around me.,patient_issue
+169,I feel like life is meaningless.,patient_issue
+170,I'm constantly anxious and on edge.,patient_issue
+171,I'm having dark thoughts I can't shake.,patient_issue
+172,I feel like no one understands what I'm going through.,patient_issue
+173,I'm isolating myself from friends and family.,patient_issue
+174,I feel like I'm not good enough.,patient_issue
+175,I have no energy or motivation.,patient_issue
+176,I feel like I'm losing control of my emotions.,patient_issue
+177,I've been avoiding responsibilities.,patient_issue
+178,I'm experiencing physical symptoms like headaches and stomachaches.,patient_issue
+179,I feel like I'm trapped in a cycle of negativity.,patient_issue
+180,I'm not interested in socializing anymore.,patient_issue
+181,I'm worried I might be depressed.,patient_issue
+182,I'm having trouble making decisions.,patient_issue
+183,I'm self-medicating with alcohol or drugs.,patient_issue
+184,I feel like life is passing me by.,patient_issue
+185,I feel like I'm a failure.,patient_issue
+186,I'm having trouble expressing myself.,patient_issue
+187,I feel like I'm losing hope.,patient_issue
+188,I feel like I'm drowning in sadness.,patient_issue
+189,I'm experiencing mood swings.,patient_issue
+190,I feel like I'm worthless.,patient_issue
+191,I feel like I'm constantly on edge.,patient_issue
+192,I feel like I'm living in a fog.,patient_issue
+193,I'm having trouble focusing on work or school.,patient_issue
+194,I feel like I'm just going through the motions.,patient_issue
+195,I'm struggling to find joy in anything.,patient_issue
+196,I feel like no one cares about me.,patient_issue
+197,I'm having trouble eating.,patient_issue
+198,I feel like I'm always on the verge of tears.,patient_issue
+199,I'm having trouble maintaining relationships.,patient_issue
+200,I feel like I'm stuck in a dark place.,patient_issue
+201,I feel like I'm losing myself.,patient_issue
+202,I'm having trouble getting out of bed.,patient_issue
+203,I feel like I'm suffocating.,patient_issue
+204,I'm having nightmares.,patient_issue
+205,I feel like I'm a burden to my loved ones.,patient_issue
+206,I'm struggling to cope with daily life.,patient_issue
+207,I feel like I'm in constant emotional pain.,patient_issue
+208,I'm losing interest in my hobbies.,patient_issue
+209,I feel like I'm numb to everything.,patient_issue
+210,I'm having difficulty trusting others.,patient_issue
+211,I feel like I'm not worthy of happiness.,patient_issue
+212,I'm constantly doubting myself.,patient_issue
+213,I feel like I'm losing my mind.,patient_issue
+214,I'm having trouble getting through the day.,patient_issue
+215,I feel like I'm constantly overwhelmed.,patient_issue
+216,I'm experiencing changes in my appetite.,patient_issue
+217,"I feel like I'm just existing, not living.",patient_issue
+218,I'm struggling to find a purpose.,patient_issue
+219,I feel like I'm a disappointment.,patient_issue
+220,I'm having trouble communicating with others.,patient_issue
+221,I feel like I'm in a dark tunnel with no way out.,patient_issue
+222,I'm losing interest in my appearance.,patient_issue
+223,I feel like I'm losing control of my life.,patient_issue
+224,I'm having trouble sleeping or sleeping too much.,patient_issue
+225,I feel like I'm always on edge.,patient_issue
+226,I'm struggling with guilt and shame.,patient_issue
+227,I feel like I'm stuck in a cycle of negativity.,patient_issue
+228,I'm having difficulty concentrating.,patient_issue
+229,I feel like I'm constantly on the verge of tears.,patient_issue
+230,I'm struggling to find motivation.,patient_issue
+231,I feel like I'm a burden to others.,patient_issue
+232,I'm experiencing physical pain with no clear cause.,patient_issue
+233,I feel like I'm losing hope.,patient_issue
+234,I'm having trouble finding joy in anything.,patient_issue
+235,I feel like I'm disconnected from reality.,patient_issue
+236,I'm struggling with feelings of worthlessness.,patient_issue
+237,I feel like I'm drowning in sadness.,patient_issue
+238,I'm having trouble expressing my emotions.,patient_issue
+239,I feel like I'm hiding my true feelings.,patient_issue
+240,I'm experiencing memory problems.,patient_issue
+241,I feel like I'm constantly exhausted.,patient_issue
+242,I'm struggling to maintain relationships.,patient_issue
+243,I feel like I'm not good enough.,patient_issue
+244,I'm having trouble making decisions.,patient_issue
+245,I feel like I'm living in a fog.,patient_issue
+246,I'm experiencing changes in my appetite.,patient_issue
+247,I feel like I'm stuck in a dark place.,patient_issue
+248,I'm having trouble getting out of bed.,patient_issue
+249,I feel like I'm suffocating.,patient_issue
+250,I'm struggling to cope with daily life.,patient_issue
+251,I feel like I'm constantly overwhelmed.,patient_issue
+252,I'm experiencing changes in my sleep patterns.,patient_issue
+253,I feel like I'm losing control.,patient_issue
+254,I'm having difficulty finding joy in anything.,patient_issue
+255,"Absolutely, that time suits me perfectly.",patient_confirmation
+256,"Yes, I can confirm that appointment slot.",patient_confirmation
+257,I'm all set for the scheduled time.,patient_confirmation
+258,"Confirmed, looking forward to it.",patient_confirmation
+259,"Yes, that works well for me. Appointment confirmed.",patient_confirmation
+260,"Affirmative, I'll be there for the appointment.",patient_confirmation
+261,"Confirmed, see you at the appointment.",patient_confirmation
+262,I confirm the appointment for that time.,patient_confirmation
+263,"Yes, I'll be available for the appointment.",patient_confirmation
+264,"Agreed, I'll definitely make it.",patient_confirmation
+265,"Absolutely, I'll mark that in my calendar.",patient_confirmation
+266,"Yes, I can make it for the scheduled time.",patient_confirmation
+267,"Confirmed, I'll be there, no worries.",patient_confirmation
+268,That time is perfect for me. Confirming the appointment.,patient_confirmation
+269,"Yes, I confirm the appointment for that time.",patient_confirmation
+270,"Great, I confirm the appointment for that time.",patient_confirmation
+271,"Yes, that appointment time is convenient for me.",patient_confirmation
+272,I confirm the appointment. Thank you.,patient_confirmation
+273,"Yes, I'll be present at the scheduled time.",patient_confirmation
+274,"Absolutely, I'll make sure to be there.",patient_confirmation
+275,"Confirmed, the appointment time works for me.",patient_confirmation
+276,"Yes, I confirm the appointment. See you then.",patient_confirmation
+277,"Affirmed, I'll see you at the appointment.",patient_confirmation
+278,"Yes, that time is perfect. Appointment confirmed.",patient_confirmation
+279,"Confirmed, looking forward to our appointment.",patient_confirmation
+280,"Sure, I confirm the appointment for that time slot.",patient_confirmation
+281,"Yes, I'll be there on time. Confirming the appointment.",patient_confirmation
+282,"Confirmed, I'll make it for the scheduled time.",patient_confirmation
+283,"Yes, that time is good for me. Appointment confirmed.",patient_confirmation
+284,"Absolutely, I'll be there at the appointment.",patient_confirmation
+285,"Confirmed, I'll mark my calendar for the appointment.",patient_confirmation
+286,"Yes, I confirm my availability for the appointment.",patient_confirmation
+287,"Sure, that time works for me. Confirming the appointment.",patient_confirmation
+288,"Yes, that appointment time is suitable for me.",patient_confirmation
+289,I confirm the appointment. Looking forward to it.,patient_confirmation
+290,"Yes, I'll make sure to attend the appointment.",patient_confirmation
+291,"Confirmed, I'll be there as scheduled.",patient_confirmation
+292,That time works for me. Confirming the appointment.,patient_confirmation
+293,"Yes, I confirm the appointment booking.",patient_confirmation
+294,"Affirmed, I'll see you at the appointment time.",patient_confirmation
+295,"Yes, that time is perfect for me. Appointment confirmed.",patient_confirmation
+296,"Confirmed, I'll be there on time as agreed.",patient_confirmation
+297,"Sure, I confirm the appointment for that time.",patient_confirmation
+298,"Yes, I can make it for the scheduled appointment.",patient_confirmation
+299,"Confirmed, looking forward to our meeting.",patient_confirmation
+300,"Absolutely, that time is convenient for me.",patient_confirmation
+301,"Yes, I confirm the appointment. All set.",patient_confirmation
+302,"Affirmative, I'll be there for the appointment.",patient_confirmation
+303,"Confirmed, see you at the scheduled time.",patient_confirmation
+304,I confirm the appointment. Thank you for scheduling.,patient_confirmation
+305,"Yes, I'll be present at the appointment time.",patient_confirmation
+306,"Absolutely, I'll make sure to be there on time.",patient_confirmation
+307,"Confirmed, the appointment time is suitable for me.",patient_confirmation
+308,"Yes, I confirm the appointment. Appreciate your help.",patient_confirmation
+309,"Affirmed, I'll attend the appointment as scheduled.",patient_confirmation
+310,"Yes, that time is perfect for me. Confirmed.",patient_confirmation
+311,"Confirmed, looking forward to our appointment together.",patient_confirmation
+312,"Sure, I confirm the appointment for that time slot.",patient_confirmation
+313,"Yes, I'll be there on time. Appointment confirmed.",patient_confirmation
+314,"Confirmed, I'll make it for the appointment as planned.",patient_confirmation
+315,"Yes, that time is good for me. Appointment confirmed.",patient_confirmation
+316,"Absolutely, I'll be there at the scheduled time.",patient_confirmation
+317,"Confirmed, I'll mark my calendar for the scheduled appointment.",patient_confirmation
+318,"Yes, I confirm my availability for the appointment booking.",patient_confirmation
+319,"Sure, that time works for me. Confirming the appointment.",patient_confirmation
+320,"Yes, that appointment time is suitable for me. Confirmed.",patient_confirmation
+321,I confirm the appointment. Looking forward to our meeting.,patient_confirmation
+322,"Yes, I'll make sure to attend the appointment as agreed.",patient_confirmation
+323,"Confirmed, I'll be there as scheduled for the appointment.",patient_confirmation
+324,That time works for me. Confirming the appointment now.,patient_confirmation
+325,"Yes, I confirm the appointment booking. See you then.",patient_confirmation
+326,"Affirmed, I'll see you at the appointment as agreed.",patient_confirmation
+327,"Yes, that time is perfect for me. Appointment confirmed.",patient_confirmation
+328,"Confirmed, I'll be there on time for the scheduled appointment.",patient_confirmation
+329,"Sure, I confirm the appointment for that time. Thank you.",patient_confirmation
+330,"Yes, I can make it for the scheduled appointment. Confirmed.",patient_confirmation
+331,"Confirmed, looking forward to our meeting at the appointment.",patient_confirmation
+332,"Absolutely, that time is convenient for me. Appointment confirmed.",patient_confirmation
+333,"Yes, I confirm the appointment. I appreciate your assistance.",patient_confirmation
+334,"Affirmative, I'll be there for the appointment. Confirmed.",patient_confirmation
+335,"Confirmed, see you at the scheduled appointment on time.",patient_confirmation
+336,I confirm the appointment. Thank you for booking it for me.,patient_confirmation
+337,"Yes, I'll be present at the appointment time. Confirmed.",patient_confirmation
+338,"Absolutely, I'll make sure to be there on time. Confirmed.",patient_confirmation
+339,"Confirmed, the appointment time is suitable for me. Thank you.",patient_confirmation
+340,"Yes, I confirm the appointment. Thank you for your help.",patient_confirmation
+341,"Affirmed, I'll attend the appointment as scheduled. Confirmed.",patient_confirmation
+342,"Yes, that time is perfect for me. Confirmed, see you then.",patient_confirmation
+343,"Confirmed, looking forward to our appointment together. Thank you.",patient_confirmation
+344,"Sure, I confirm the appointment for that time slot. Thank you.",patient_confirmation
+345,"Yes, I'll be there on time. Appointment confirmed, appreciate it.",patient_confirmation
+346,"Confirmed, I'll make it for the appointment as planned. Thank you.",patient_confirmation
+347,"Yes, that time is good for me. Appointment confirmed, thank you.",patient_confirmation
+348,"Absolutely, I'll be there at the scheduled time. Appointment confirmed.",patient_confirmation
+349,"Confirmed, I'll mark my calendar for the scheduled appointment. Thank you.",patient_confirmation
+350,"Yes, I confirm my availability for the appointment booking. Thank you.",patient_confirmation
+351,"Sure, that time works for me. Confirming the appointment, thank you.",patient_confirmation
+352,"Yes, that appointment time is suitable for me. Confirmed, thank you.",patient_confirmation
+353,"I confirm the appointment. Looking forward to our meeting, thank you.",patient_confirmation
+354,"Yes, I'll make sure to attend the appointment as agreed. Confirmed, thank you",patient_confirmation
+355,"Yes, that works for me.",patient_confirmation
+356,"Absolutely, I'll be there.",patient_confirmation
+357,"Yes, I can make that time.",patient_confirmation
+358,"Sure thing, count me in.",patient_confirmation
+359,"Yes, I'm available then.",patient_confirmation
+360,That's perfect for me.,patient_confirmation
+361,I'm good with that appointment time.,patient_confirmation
+362,"Yes, I'll confirm that.",patient_confirmation
+363,I'm happy to book that slot.,patient_confirmation
+364,"Yes, I'll see you then.",patient_confirmation
+365,"Yes, please schedule me for that time.",patient_confirmation
+366,"That suits my schedule, yes.",patient_confirmation
+367,"Yes, I can attend at that time.",patient_confirmation
+368,I confirm that appointment time.,patient_confirmation
+369,"Yes, I'll be available then.",patient_confirmation
+370,"Affirmative, I'll be there.",patient_confirmation
+371,"Yes, I'll mark that in my calendar.",patient_confirmation
+372,"I can make it, yes.",patient_confirmation
+373,"Yes, that's convenient for me.",patient_confirmation
+374,"Absolutely, I'm free then.",patient_confirmation
+375,"Yes, let's go ahead with that.",patient_confirmation
+376,That time works well for me.,patient_confirmation
+377,"Yes, I'll commit to that appointment.",patient_confirmation
+378,"Yes, that's a good time for me.",patient_confirmation
+379,I confirm my availability for that slot.,patient_confirmation
+380,"Yes, I'll plan to be there.",patient_confirmation
+381,That's a yes from me.,patient_confirmation
+382,"Yes, I'll make sure to attend.",patient_confirmation
+383,"I'm available, yes.",patient_confirmation
+384,I'll confirm my attendance for that time.,patient_confirmation
+385,"Yes, I'm okay with that time.",patient_confirmation
+386,I'll be present at that appointment.,patient_confirmation
+387,"Yes, please book me in for that time.",patient_confirmation
+388,"Affirmative, I agree to that time.",patient_confirmation
+389,"Yes, I'll schedule around that time.",patient_confirmation
+390,"That works with my schedule, yes.",patient_confirmation
+391,"Yes, I'll be there as scheduled.",patient_confirmation
+392,I'll confirm my presence for that time.,patient_confirmation
+393,"Yes, I can manage at that time.",patient_confirmation
+394,"Absolutely, I'll set aside that time.",patient_confirmation
+395,"Yes, I'll plan to attend then.",patient_confirmation
+396,I'll confirm my availability for that slot.,patient_confirmation
+397,"Yes, I'll make myself available.",patient_confirmation
+398,"I'll be there, yes.",patient_confirmation
+399,"Yes, I'll be present for the appointment.",patient_confirmation
+400,That appointment time suits me.,patient_confirmation
+401,"Yes, I'll block that time on my calendar.",patient_confirmation
+402,"I'm fine with that appointment, yes.",patient_confirmation
+403,"Yes, I'll keep that appointment time.",patient_confirmation
+404,I agree to that appointment time.,patient_confirmation
+405,"Yes, I'll attend as scheduled.",patient_confirmation
+406,I'll confirm my attendance for that appointment.,patient_confirmation
+407,"Yes, that's a suitable time for me.",patient_confirmation
+408,I'll make sure to be available then.,patient_confirmation
+409,"Yes, I'll make it to that appointment.",patient_confirmation
+410,I'll confirm my availability for that time.,patient_confirmation
+411,"Yes, I'll plan to be there.",patient_confirmation
+412,"That time works for me, yes.",patient_confirmation
+413,"Yes, I'll prioritize that appointment.",patient_confirmation
+414,"I'll be available, yes.",patient_confirmation
+415,"Yes, I'll make myself free for that time.",patient_confirmation
+416,I'll confirm my presence for that appointment.,patient_confirmation
+417,"Yes, I'll make arrangements for that time.",patient_confirmation
+418,"I'll be there as agreed, yes.",patient_confirmation
+419,"Yes, that works within my schedule.",patient_confirmation
+420,I confirm my attendance for that time.,patient_confirmation
+421,"Yes, I'll schedule my day around that time.",patient_confirmation
+422,I'll mark my calendar for that appointment.,patient_confirmation
+423,"Yes, I'll commit to attending.",patient_confirmation
+424,"That time suits me fine, yes.",patient_confirmation
+425,"Yes, I'll keep that appointment.",patient_confirmation
+426,I'll confirm my availability for that appointment.,patient_confirmation
+427,"Yes, I'll be present as scheduled.",patient_confirmation
+428,I'll make sure to attend at that time.,patient_confirmation
+429,"Yes, I'll attend that appointment.",patient_confirmation
+430,I'll confirm my presence for that time slot.,patient_confirmation
+431,"Yes, I'll be available then.",patient_confirmation
+432,"I'll be there on time, yes.",patient_confirmation
+433,"Yes, I'll plan my day around that appointment.",patient_confirmation
+434,I'll confirm my attendance for that slot.,patient_confirmation
+435,"Yes, I'll arrange to be there.",patient_confirmation
+436,"I'll be present for that appointment, yes.",patient_confirmation
+437,"Yes, I'll be there without fail.",patient_confirmation
+438,I'll confirm my availability for that time.,patient_confirmation
+439,"Yes, I'll make sure to attend.",patient_confirmation
+440,"I'll block that time off, yes.",patient_confirmation
+441,"Yes, I'll make it to the appointment.",patient_confirmation
+442,I confirm my attendance for that time.,patient_confirmation
+443,"Yes, I'll attend as planned.",patient_confirmation
+444,I'll confirm my presence for that appointment time.,patient_confirmation
+445,"Yes, I'll schedule myself accordingly.",patient_confirmation
+446,"I'll be there on schedule, yes.",patient_confirmation
+447,"Yes, I'll arrange my schedule for that time.",patient_confirmation
+448,"I'll be available at that time, yes.",patient_confirmation
+449,"Yes, I'll prioritize that appointment.",patient_confirmation
+450,I'll confirm my availability for that slot.,patient_confirmation
+451,"Yes, I'll make sure to attend the appointment.",patient_confirmation
+452,"I'll block that time for the appointment, yes.",patient_confirmation
+453,"Yes, I'll attend at the agreed time.",patient_confirmation
+454,I confirm my availability for that appointment.,patient_confirmation
+455,"Unfortunately, that time doesn't work for me.",patient_rejection
+456,I'm unable to make it at that scheduled time.,patient_rejection
+457,"Regrettably, I have a conflict at that time.",patient_rejection
+458,"Sorry, but I can't make it for that appointment.",patient_rejection
+459,"That time is not feasible for me, I need to cancel.",patient_rejection
+460,"Apologies, I won't be able to attend at that time.",patient_rejection
+461,I have prior commitments; can we reschedule?,patient_rejection
+462,I'm afraid that time doesn't fit my schedule.,patient_rejection
+463,"Unfortunately, I have another appointment then.",patient_rejection
+464,I need to decline that time; it's not convenient.,patient_rejection
+465,"Sorry, but I have a conflicting engagement.",patient_rejection
+466,"Unfortunately, I won't be available at that time.",patient_rejection
+467,That time doesn't work for me; can we adjust?,patient_rejection
+468,"I'm sorry, but I can't make it for that time.",patient_rejection
+469,I have a conflicting event; can we find another time?,patient_rejection
+470,"Unfortunately, I have a prior engagement.",patient_rejection
+471,"Sorry, that time doesn't suit my schedule.",patient_rejection
+472,"Regrettably, I need to decline that time slot.",patient_rejection
+473,"Apologies, I can't make it for that appointment.",patient_rejection
+474,"Unfortunately, I have another commitment.",patient_rejection
+475,"Sorry, that time doesn't work for me.",patient_rejection
+476,I'm unable to attend at that specific time.,patient_rejection
+477,"Unfortunately, I have something else planned.",patient_rejection
+478,"Sorry, but I have a conflict during that time.",patient_rejection
+479,That doesn't work for me; can we reschedule?,patient_rejection
+480,I have a conflicting appointment; need to cancel.,patient_rejection
+481,"Unfortunately, I won't be able to make it then.",patient_rejection
+482,"Sorry, that time is not feasible for me.",patient_rejection
+483,I have prior engagements; need to change.,patient_rejection
+484,"Unfortunately, I can't make it for that slot.",patient_rejection
+485,"Sorry, but that time doesn't fit my schedule.",patient_rejection
+486,I have a conflicting commitment at that time.,patient_rejection
+487,"Unfortunately, I have a conflicting schedule.",patient_rejection
+488,"Sorry, that time doesn't work for me; can we change?",patient_rejection
+489,I need to cancel as I have another appointment.,patient_rejection
+490,"Unfortunately, I won't be available at that time.",patient_rejection
+491,"Sorry, that time doesn't suit my availability.",patient_rejection
+492,"I can't make it at that scheduled time, sorry.",patient_rejection
+493,"Unfortunately, I have a conflicting event then.",patient_rejection
+494,"Sorry, I have a prior commitment at that time.",patient_rejection
+495,I'm unable to make it for that particular time.,patient_rejection
+496,"Unfortunately, that time doesn't work for me.",patient_rejection
+497,"Sorry, but I have something else scheduled.",patient_rejection
+498,I have a conflict; can we find another time?,patient_rejection
+499,"Unfortunately, I have another engagement then.",patient_rejection
+500,"Sorry, that time doesn't fit into my schedule.",patient_rejection
+501,I have a conflicting appointment; need to cancel.,patient_rejection
+502,"Unfortunately, I won't be able to make it then.",patient_rejection
+503,"Sorry, that time is not feasible for me.",patient_rejection
+504,I have prior engagements; need to change.,patient_rejection
+505,"Unfortunately, I can't make it for that slot.",patient_rejection
+506,"Sorry, but that time doesn't work for me.",patient_rejection
+507,I have a conflicting commitment at that time.,patient_rejection
+508,"Unfortunately, I have a conflicting schedule.",patient_rejection
+509,"Sorry, that time doesn't suit my availability.",patient_rejection
+510,I need to cancel as I have another appointment.,patient_rejection
+511,"Unfortunately, I won't be available at that time.",patient_rejection
+512,"Sorry, that time doesn't suit my schedule.",patient_rejection
+513,"I can't make it at that scheduled time, sorry.",patient_rejection
+514,"Unfortunately, I have a conflicting event then.",patient_rejection
+515,"Sorry, I have a prior commitment at that time.",patient_rejection
+516,I'm unable to make it for that particular time.,patient_rejection
+517,"Unfortunately, that time doesn't work for me.",patient_rejection
+518,"Sorry, but I have something else scheduled.",patient_rejection
+519,I have a conflict; can we find another time?,patient_rejection
+520,"Unfortunately, I have another engagement then.",patient_rejection
+521,"Sorry, that time doesn't fit into my schedule.",patient_rejection
+522,I have a conflicting appointment; need to cancel.,patient_rejection
+523,"Unfortunately, I won't be able to make it then.",patient_rejection
+524,"Sorry, that time is not feasible for me.",patient_rejection
+525,I have prior engagements; need to change.,patient_rejection
+526,"Unfortunately, I can't make it for that slot.",patient_rejection
+527,"Sorry, but that time doesn't work for me.",patient_rejection
+528,I have a conflicting commitment at that time.,patient_rejection
+529,"Unfortunately, I have a conflicting schedule.",patient_rejection
+530,"Sorry, that time doesn't suit my availability.",patient_rejection
+531,I need to cancel as I have another appointment.,patient_rejection
+532,"Unfortunately, I won't be available at that time.",patient_rejection
+533,"Sorry, that time doesn't suit my schedule.",patient_rejection
+534,"I can't make it at that scheduled time, sorry.",patient_rejection
+535,"Unfortunately, I have a conflicting event then.",patient_rejection
+536,"Sorry, I have a prior commitment at that time.",patient_rejection
+537,I'm unable to make it for that particular time.,patient_rejection
+538,"Unfortunately, that time doesn't work for me.",patient_rejection
+539,"Sorry, but I have something else scheduled.",patient_rejection
+540,I have a conflict; can we find another time?,patient_rejection
+541,"Unfortunately, I have another engagement then.",patient_rejection
+542,"Sorry, that time doesn't fit into my schedule.",patient_rejection
+543,I have a conflicting appointment; need to cancel.,patient_rejection
+544,"Unfortunately, I won't be able to make it then.",patient_rejection
+545,"Sorry, that time is not feasible for me.",patient_rejection
+546,I have prior engagements; need to change.,patient_rejection
+547,"Unfortunately, I can't make it for that slot.",patient_rejection
+548,"Sorry, but that time doesn't work for me.",patient_rejection
+549,I have a conflicting commitment at that time.,patient_rejection
+550,"Unfortunately, I have a conflicting schedule.",patient_rejection
+551,"Sorry, that time doesn't suit my availability.",patient_rejection
+552,I need to cancel as I have another appointment.,patient_rejection
+553,"Unfortunately, I won't be available at that time.",patient_rejection
+554,"Sorry, that time doesn't suit my schedule.",patient_rejection
+555,"No, I'm not available at that time.",patient_rejection
+556,"Sorry, but I have a prior commitment.",patient_rejection
+557,"Unfortunately, that doesn't work for me.",patient_rejection
+558,"No, I have another appointment scheduled.",patient_rejection
+559,I'm afraid I can't make it then.,patient_rejection
+560,"Sorry, I have a conflicting engagement.",patient_rejection
+561,"No, that time is inconvenient for me.",patient_rejection
+562,"Unfortunately, I have other plans.",patient_rejection
+563,I'm unavailable at that particular time.,patient_rejection
+564,"No, I have a scheduling conflict.",patient_rejection
+565,"Sorry, I won't be able to attend.",patient_rejection
+566,I'm afraid I have another commitment.,patient_rejection
+567,"No, I have something else scheduled.",patient_rejection
+568,"Unfortunately, I have a prior obligation.",patient_rejection
+569,"Sorry, but I'm occupied at that time.",patient_rejection
+570,"No, I have a conflicting appointment.",patient_rejection
+571,"I'm sorry, that time doesn't suit me.",patient_rejection
+572,"Unfortunately, I can't make it then.",patient_rejection
+573,"No, I'm not free at that time.",patient_rejection
+574,"Sorry, I won't be available then.",patient_rejection
+575,"No, I have a prior engagement.",patient_rejection
+576,I'm afraid I have another commitment.,patient_rejection
+577,"Unfortunately, I'm not available then.",patient_rejection
+578,"No, that doesn't fit into my schedule.",patient_rejection
+579,"Sorry, I'm unable to attend at that time.",patient_rejection
+580,"No, I have a conflicting schedule.",patient_rejection
+581,"Unfortunately, I have other plans.",patient_rejection
+582,"Sorry, that's not a convenient time for me.",patient_rejection
+583,"No, I'm occupied during that time.",patient_rejection
+584,I'm afraid I have something else going on.,patient_rejection
+585,"No, I have a conflicting arrangement.",patient_rejection
+586,"Sorry, but I have a conflicting commitment.",patient_rejection
+587,"Unfortunately, I have a prior engagement.",patient_rejection
+588,"No, that time is already booked for me.",patient_rejection
+589,"Sorry, I can't commit to that time.",patient_rejection
+590,"No, I'm unable to make it then.",patient_rejection
+591,"Unfortunately, I have another appointment.",patient_rejection
+592,"No, I have prior obligations.",patient_rejection
+593,"Sorry, I'm not available then.",patient_rejection
+594,"No, I can't attend at that time.",patient_rejection
+595,"Unfortunately, I have a conflicting schedule.",patient_rejection
+596,"No, I have something else planned.",patient_rejection
+597,"Sorry, that doesn't fit with my schedule.",patient_rejection
+598,"No, I have a conflicting event.",patient_rejection
+599,"Unfortunately, I have a prior commitment.",patient_rejection
+600,"No, I'm already booked during that time.",patient_rejection
+601,"Sorry, I won't be able to make it.",patient_rejection
+602,"No, I'm unavailable at that particular time.",patient_rejection
+603,"Unfortunately, I'm not free then.",patient_rejection
+604,"No, that's not a good time for me.",patient_rejection
+605,"Sorry, I have another engagement.",patient_rejection
+606,"No, I can't make that time work.",patient_rejection
+607,"Unfortunately, I have another obligation.",patient_rejection
+608,"No, I'm occupied at that time.",patient_rejection
+609,"Sorry, I have a prior arrangement.",patient_rejection
+610,"No, that time doesn't work for me.",patient_rejection
+611,"Unfortunately, I'm unavailable then.",patient_rejection
+612,"No, I'm not able to attend at that time.",patient_rejection
+613,"Sorry, I have a conflicting commitment.",patient_rejection
+614,"No, I have a different appointment.",patient_rejection
+615,"Unfortunately, that's not possible for me.",patient_rejection
+616,"No, I'm not available during that time.",patient_rejection
+617,"Sorry, I have something else scheduled.",patient_rejection
+618,"No, I can't fit that into my schedule.",patient_rejection
+619,"Unfortunately, I'm already committed then.",patient_rejection
+620,"No, that's a busy time for me.",patient_rejection
+621,"Sorry, I have another engagement planned.",patient_rejection
+622,"No, I'm unavailable at that time slot.",patient_rejection
+623,"Unfortunately, I have a prior engagement.",patient_rejection
+624,"No, I'm not free then, sorry.",patient_rejection
+625,"Sorry, I can't make it at that time.",patient_rejection
+626,"No, I have another commitment then.",patient_rejection
+627,"Unfortunately, I won't be available.",patient_rejection
+628,"No, I have a different obligation.",patient_rejection
+629,"Sorry, I'm unable to commit to that time.",patient_rejection
+630,"No, I have a conflicting schedule.",patient_rejection
+631,"Unfortunately, I have a prior arrangement.",patient_rejection
+632,"No, I'm not available during that period.",patient_rejection
+633,"Sorry, I have another appointment.",patient_rejection
+634,"No, that doesn't fit with my schedule.",patient_rejection
+635,"Unfortunately, I'm occupied at that time.",patient_rejection
+636,"No, I have a prior engagement scheduled.",patient_rejection
+637,"Sorry, I have a conflicting event.",patient_rejection
+638,"No, I'm unavailable for that time.",patient_rejection
+639,"Unfortunately, that time doesn't work for me.",patient_rejection
+640,"No, I have a different commitment.",patient_rejection
+641,"Sorry, I have a prior obligation.",patient_rejection
+642,"No, I'm unable to make it then.",patient_rejection
+643,"Unfortunately, I have another arrangement.",patient_rejection
+644,"No, I can't attend at that time.",patient_rejection
+645,"Sorry, I'm already booked.",patient_rejection
+646,"No, that doesn't suit my schedule.",patient_rejection
+647,"Unfortunately, I'm not available then.",patient_rejection
+648,"No, I have other plans at that time.",patient_rejection
+649,"Sorry, I have a conflicting engagement.",patient_rejection
+650,"No, I can't make it for that appointment.",patient_rejection
+651,"Unfortunately, I have a conflicting commitment.",patient_rejection
+652,"No, I have a prior engagement.",patient_rejection
+653,"Sorry, I'm unavailable during that period.",patient_rejection
+654,"No, I'm not free for that time slot.",patient_rejection
