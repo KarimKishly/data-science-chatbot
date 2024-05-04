@@ -27,3 +27,5 @@ through the uvicorn command
 ```
 uvicorn main:app --port $port_number
 ```
+The Swagger UI to visualize the API endpoints can be accessed
+at localhost:8000/docs for the default port 8000.
