@@ -354,303 +354,103 @@
 352,"Yes, that appointment time is suitable for me. Confirmed, thank you.",patient_confirmation
 353,"I confirm the appointment. Looking forward to our meeting, thank you.",patient_confirmation
 354,"Yes, I'll make sure to attend the appointment as agreed. Confirmed, thank you",patient_confirmation
-355,"Yes, that works for me.",patient_confirmation
-356,"Absolutely, I'll be there.",patient_confirmation
-357,"Yes, I can make that time.",patient_confirmation
-358,"Sure thing, count me in.",patient_confirmation
-359,"Yes, I'm available then.",patient_confirmation
-360,That's perfect for me.,patient_confirmation
-361,I'm good with that appointment time.,patient_confirmation
-362,"Yes, I'll confirm that.",patient_confirmation
-363,I'm happy to book that slot.,patient_confirmation
-364,"Yes, I'll see you then.",patient_confirmation
-365,"Yes, please schedule me for that time.",patient_confirmation
-366,"That suits my schedule, yes.",patient_confirmation
-367,"Yes, I can attend at that time.",patient_confirmation
-368,I confirm that appointment time.,patient_confirmation
-369,"Yes, I'll be available then.",patient_confirmation
-370,"Affirmative, I'll be there.",patient_confirmation
-371,"Yes, I'll mark that in my calendar.",patient_confirmation
-372,"I can make it, yes.",patient_confirmation
-373,"Yes, that's convenient for me.",patient_confirmation
-374,"Absolutely, I'm free then.",patient_confirmation
-375,"Yes, let's go ahead with that.",patient_confirmation
-376,That time works well for me.,patient_confirmation
-377,"Yes, I'll commit to that appointment.",patient_confirmation
-378,"Yes, that's a good time for me.",patient_confirmation
-379,I confirm my availability for that slot.,patient_confirmation
-380,"Yes, I'll plan to be there.",patient_confirmation
-381,That's a yes from me.,patient_confirmation
-382,"Yes, I'll make sure to attend.",patient_confirmation
-383,"I'm available, yes.",patient_confirmation
-384,I'll confirm my attendance for that time.,patient_confirmation
-385,"Yes, I'm okay with that time.",patient_confirmation
-386,I'll be present at that appointment.,patient_confirmation
-387,"Yes, please book me in for that time.",patient_confirmation
-388,"Affirmative, I agree to that time.",patient_confirmation
-389,"Yes, I'll schedule around that time.",patient_confirmation
-390,"That works with my schedule, yes.",patient_confirmation
-391,"Yes, I'll be there as scheduled.",patient_confirmation
-392,I'll confirm my presence for that time.,patient_confirmation
-393,"Yes, I can manage at that time.",patient_confirmation
-394,"Absolutely, I'll set aside that time.",patient_confirmation
-395,"Yes, I'll plan to attend then.",patient_confirmation
-396,I'll confirm my availability for that slot.,patient_confirmation
-397,"Yes, I'll make myself available.",patient_confirmation
-398,"I'll be there, yes.",patient_confirmation
-399,"Yes, I'll be present for the appointment.",patient_confirmation
-400,That appointment time suits me.,patient_confirmation
-401,"Yes, I'll block that time on my calendar.",patient_confirmation
-402,"I'm fine with that appointment, yes.",patient_confirmation
-403,"Yes, I'll keep that appointment time.",patient_confirmation
-404,I agree to that appointment time.,patient_confirmation
-405,"Yes, I'll attend as scheduled.",patient_confirmation
-406,I'll confirm my attendance for that appointment.,patient_confirmation
-407,"Yes, that's a suitable time for me.",patient_confirmation
-408,I'll make sure to be available then.,patient_confirmation
-409,"Yes, I'll make it to that appointment.",patient_confirmation
-410,I'll confirm my availability for that time.,patient_confirmation
-411,"Yes, I'll plan to be there.",patient_confirmation
-412,"That time works for me, yes.",patient_confirmation
-413,"Yes, I'll prioritize that appointment.",patient_confirmation
-414,"I'll be available, yes.",patient_confirmation
-415,"Yes, I'll make myself free for that time.",patient_confirmation
-416,I'll confirm my presence for that appointment.,patient_confirmation
-417,"Yes, I'll make arrangements for that time.",patient_confirmation
-418,"I'll be there as agreed, yes.",patient_confirmation
-419,"Yes, that works within my schedule.",patient_confirmation
-420,I confirm my attendance for that time.,patient_confirmation
-421,"Yes, I'll schedule my day around that time.",patient_confirmation
-422,I'll mark my calendar for that appointment.,patient_confirmation
-423,"Yes, I'll commit to attending.",patient_confirmation
-424,"That time suits me fine, yes.",patient_confirmation
-425,"Yes, I'll keep that appointment.",patient_confirmation
-426,I'll confirm my availability for that appointment.,patient_confirmation
-427,"Yes, I'll be present as scheduled.",patient_confirmation
-428,I'll make sure to attend at that time.,patient_confirmation
-429,"Yes, I'll attend that appointment.",patient_confirmation
-430,I'll confirm my presence for that time slot.,patient_confirmation
-431,"Yes, I'll be available then.",patient_confirmation
-432,"I'll be there on time, yes.",patient_confirmation
-433,"Yes, I'll plan my day around that appointment.",patient_confirmation
-434,I'll confirm my attendance for that slot.,patient_confirmation
-435,"Yes, I'll arrange to be there.",patient_confirmation
-436,"I'll be present for that appointment, yes.",patient_confirmation
-437,"Yes, I'll be there without fail.",patient_confirmation
-438,I'll confirm my availability for that time.,patient_confirmation
-439,"Yes, I'll make sure to attend.",patient_confirmation
-440,"I'll block that time off, yes.",patient_confirmation
-441,"Yes, I'll make it to the appointment.",patient_confirmation
-442,I confirm my attendance for that time.,patient_confirmation
-443,"Yes, I'll attend as planned.",patient_confirmation
-444,I'll confirm my presence for that appointment time.,patient_confirmation
-445,"Yes, I'll schedule myself accordingly.",patient_confirmation
-446,"I'll be there on schedule, yes.",patient_confirmation
-447,"Yes, I'll arrange my schedule for that time.",patient_confirmation
-448,"I'll be available at that time, yes.",patient_confirmation
-449,"Yes, I'll prioritize that appointment.",patient_confirmation
-450,I'll confirm my availability for that slot.,patient_confirmation
-451,"Yes, I'll make sure to attend the appointment.",patient_confirmation
-452,"I'll block that time for the appointment, yes.",patient_confirmation
-453,"Yes, I'll attend at the agreed time.",patient_confirmation
-454,I confirm my availability for that appointment.,patient_confirmation
-455,"Unfortunately, that time doesn't work for me.",patient_rejection
-456,I'm unable to make it at that scheduled time.,patient_rejection
-457,"Regrettably, I have a conflict at that time.",patient_rejection
-458,"Sorry, but I can't make it for that appointment.",patient_rejection
-459,"That time is not feasible for me, I need to cancel.",patient_rejection
-460,"Apologies, I won't be able to attend at that time.",patient_rejection
-461,I have prior commitments; can we reschedule?,patient_rejection
-462,I'm afraid that time doesn't fit my schedule.,patient_rejection
-463,"Unfortunately, I have another appointment then.",patient_rejection
-464,I need to decline that time; it's not convenient.,patient_rejection
-465,"Sorry, but I have a conflicting engagement.",patient_rejection
-466,"Unfortunately, I won't be available at that time.",patient_rejection
-467,That time doesn't work for me; can we adjust?,patient_rejection
-468,"I'm sorry, but I can't make it for that time.",patient_rejection
-469,I have a conflicting event; can we find another time?,patient_rejection
-470,"Unfortunately, I have a prior engagement.",patient_rejection
-471,"Sorry, that time doesn't suit my schedule.",patient_rejection
-472,"Regrettably, I need to decline that time slot.",patient_rejection
-473,"Apologies, I can't make it for that appointment.",patient_rejection
-474,"Unfortunately, I have another commitment.",patient_rejection
-475,"Sorry, that time doesn't work for me.",patient_rejection
-476,I'm unable to attend at that specific time.,patient_rejection
-477,"Unfortunately, I have something else planned.",patient_rejection
-478,"Sorry, but I have a conflict during that time.",patient_rejection
-479,That doesn't work for me; can we reschedule?,patient_rejection
-480,I have a conflicting appointment; need to cancel.,patient_rejection
-481,"Unfortunately, I won't be able to make it then.",patient_rejection
-482,"Sorry, that time is not feasible for me.",patient_rejection
-483,I have prior engagements; need to change.,patient_rejection
-484,"Unfortunately, I can't make it for that slot.",patient_rejection
-485,"Sorry, but that time doesn't fit my schedule.",patient_rejection
-486,I have a conflicting commitment at that time.,patient_rejection
-487,"Unfortunately, I have a conflicting schedule.",patient_rejection
-488,"Sorry, that time doesn't work for me; can we change?",patient_rejection
-489,I need to cancel as I have another appointment.,patient_rejection
-490,"Unfortunately, I won't be available at that time.",patient_rejection
-491,"Sorry, that time doesn't suit my availability.",patient_rejection
-492,"I can't make it at that scheduled time, sorry.",patient_rejection
-493,"Unfortunately, I have a conflicting event then.",patient_rejection
-494,"Sorry, I have a prior commitment at that time.",patient_rejection
-495,I'm unable to make it for that particular time.,patient_rejection
-496,"Unfortunately, that time doesn't work for me.",patient_rejection
-497,"Sorry, but I have something else scheduled.",patient_rejection
-498,I have a conflict; can we find another time?,patient_rejection
-499,"Unfortunately, I have another engagement then.",patient_rejection
-500,"Sorry, that time doesn't fit into my schedule.",patient_rejection
-501,I have a conflicting appointment; need to cancel.,patient_rejection
-502,"Unfortunately, I won't be able to make it then.",patient_rejection
-503,"Sorry, that time is not feasible for me.",patient_rejection
-504,I have prior engagements; need to change.,patient_rejection
-505,"Unfortunately, I can't make it for that slot.",patient_rejection
-506,"Sorry, but that time doesn't work for me.",patient_rejection
-507,I have a conflicting commitment at that time.,patient_rejection
-508,"Unfortunately, I have a conflicting schedule.",patient_rejection
-509,"Sorry, that time doesn't suit my availability.",patient_rejection
-510,I need to cancel as I have another appointment.,patient_rejection
-511,"Unfortunately, I won't be available at that time.",patient_rejection
-512,"Sorry, that time doesn't suit my schedule.",patient_rejection
-513,"I can't make it at that scheduled time, sorry.",patient_rejection
-514,"Unfortunately, I have a conflicting event then.",patient_rejection
-515,"Sorry, I have a prior commitment at that time.",patient_rejection
-516,I'm unable to make it for that particular time.,patient_rejection
-517,"Unfortunately, that time doesn't work for me.",patient_rejection
-518,"Sorry, but I have something else scheduled.",patient_rejection
-519,I have a conflict; can we find another time?,patient_rejection
-520,"Unfortunately, I have another engagement then.",patient_rejection
-521,"Sorry, that time doesn't fit into my schedule.",patient_rejection
-522,I have a conflicting appointment; need to cancel.,patient_rejection
-523,"Unfortunately, I won't be able to make it then.",patient_rejection
-524,"Sorry, that time is not feasible for me.",patient_rejection
-525,I have prior engagements; need to change.,patient_rejection
-526,"Unfortunately, I can't make it for that slot.",patient_rejection
-527,"Sorry, but that time doesn't work for me.",patient_rejection
-528,I have a conflicting commitment at that time.,patient_rejection
-529,"Unfortunately, I have a conflicting schedule.",patient_rejection
-530,"Sorry, that time doesn't suit my availability.",patient_rejection
-531,I need to cancel as I have another appointment.,patient_rejection
-532,"Unfortunately, I won't be available at that time.",patient_rejection
-533,"Sorry, that time doesn't suit my schedule.",patient_rejection
-534,"I can't make it at that scheduled time, sorry.",patient_rejection
-535,"Unfortunately, I have a conflicting event then.",patient_rejection
-536,"Sorry, I have a prior commitment at that time.",patient_rejection
-537,I'm unable to make it for that particular time.,patient_rejection
-538,"Unfortunately, that time doesn't work for me.",patient_rejection
-539,"Sorry, but I have something else scheduled.",patient_rejection
-540,I have a conflict; can we find another time?,patient_rejection
-541,"Unfortunately, I have another engagement then.",patient_rejection
-542,"Sorry, that time doesn't fit into my schedule.",patient_rejection
-543,I have a conflicting appointment; need to cancel.,patient_rejection
-544,"Unfortunately, I won't be able to make it then.",patient_rejection
-545,"Sorry, that time is not feasible for me.",patient_rejection
-546,I have prior engagements; need to change.,patient_rejection
-547,"Unfortunately, I can't make it for that slot.",patient_rejection
-548,"Sorry, but that time doesn't work for me.",patient_rejection
-549,I have a conflicting commitment at that time.,patient_rejection
-550,"Unfortunately, I have a conflicting schedule.",patient_rejection
-551,"Sorry, that time doesn't suit my availability.",patient_rejection
-552,I need to cancel as I have another appointment.,patient_rejection
-553,"Unfortunately, I won't be available at that time.",patient_rejection
-554,"Sorry, that time doesn't suit my schedule.",patient_rejection
-555,"No, I'm not available at that time.",patient_rejection
-556,"Sorry, but I have a prior commitment.",patient_rejection
-557,"Unfortunately, that doesn't work for me.",patient_rejection
-558,"No, I have another appointment scheduled.",patient_rejection
-559,I'm afraid I can't make it then.,patient_rejection
-560,"Sorry, I have a conflicting engagement.",patient_rejection
-561,"No, that time is inconvenient for me.",patient_rejection
-562,"Unfortunately, I have other plans.",patient_rejection
-563,I'm unavailable at that particular time.,patient_rejection
-564,"No, I have a scheduling conflict.",patient_rejection
-565,"Sorry, I won't be able to attend.",patient_rejection
-566,I'm afraid I have another commitment.,patient_rejection
-567,"No, I have something else scheduled.",patient_rejection
-568,"Unfortunately, I have a prior obligation.",patient_rejection
-569,"Sorry, but I'm occupied at that time.",patient_rejection
-570,"No, I have a conflicting appointment.",patient_rejection
-571,"I'm sorry, that time doesn't suit me.",patient_rejection
-572,"Unfortunately, I can't make it then.",patient_rejection
-573,"No, I'm not free at that time.",patient_rejection
-574,"Sorry, I won't be available then.",patient_rejection
-575,"No, I have a prior engagement.",patient_rejection
-576,I'm afraid I have another commitment.,patient_rejection
-577,"Unfortunately, I'm not available then.",patient_rejection
-578,"No, that doesn't fit into my schedule.",patient_rejection
-579,"Sorry, I'm unable to attend at that time.",patient_rejection
-580,"No, I have a conflicting schedule.",patient_rejection
-581,"Unfortunately, I have other plans.",patient_rejection
-582,"Sorry, that's not a convenient time for me.",patient_rejection
-583,"No, I'm occupied during that time.",patient_rejection
-584,I'm afraid I have something else going on.,patient_rejection
-585,"No, I have a conflicting arrangement.",patient_rejection
-586,"Sorry, but I have a conflicting commitment.",patient_rejection
-587,"Unfortunately, I have a prior engagement.",patient_rejection
-588,"No, that time is already booked for me.",patient_rejection
-589,"Sorry, I can't commit to that time.",patient_rejection
-590,"No, I'm unable to make it then.",patient_rejection
-591,"Unfortunately, I have another appointment.",patient_rejection
-592,"No, I have prior obligations.",patient_rejection
-593,"Sorry, I'm not available then.",patient_rejection
-594,"No, I can't attend at that time.",patient_rejection
-595,"Unfortunately, I have a conflicting schedule.",patient_rejection
-596,"No, I have something else planned.",patient_rejection
-597,"Sorry, that doesn't fit with my schedule.",patient_rejection
-598,"No, I have a conflicting event.",patient_rejection
-599,"Unfortunately, I have a prior commitment.",patient_rejection
-600,"No, I'm already booked during that time.",patient_rejection
-601,"Sorry, I won't be able to make it.",patient_rejection
-602,"No, I'm unavailable at that particular time.",patient_rejection
-603,"Unfortunately, I'm not free then.",patient_rejection
-604,"No, that's not a good time for me.",patient_rejection
-605,"Sorry, I have another engagement.",patient_rejection
-606,"No, I can't make that time work.",patient_rejection
-607,"Unfortunately, I have another obligation.",patient_rejection
-608,"No, I'm occupied at that time.",patient_rejection
-609,"Sorry, I have a prior arrangement.",patient_rejection
-610,"No, that time doesn't work for me.",patient_rejection
-611,"Unfortunately, I'm unavailable then.",patient_rejection
-612,"No, I'm not able to attend at that time.",patient_rejection
-613,"Sorry, I have a conflicting commitment.",patient_rejection
-614,"No, I have a different appointment.",patient_rejection
-615,"Unfortunately, that's not possible for me.",patient_rejection
-616,"No, I'm not available during that time.",patient_rejection
-617,"Sorry, I have something else scheduled.",patient_rejection
-618,"No, I can't fit that into my schedule.",patient_rejection
-619,"Unfortunately, I'm already committed then.",patient_rejection
-620,"No, that's a busy time for me.",patient_rejection
-621,"Sorry, I have another engagement planned.",patient_rejection
-622,"No, I'm unavailable at that time slot.",patient_rejection
-623,"Unfortunately, I have a prior engagement.",patient_rejection
-624,"No, I'm not free then, sorry.",patient_rejection
-625,"Sorry, I can't make it at that time.",patient_rejection
-626,"No, I have another commitment then.",patient_rejection
-627,"Unfortunately, I won't be available.",patient_rejection
-628,"No, I have a different obligation.",patient_rejection
-629,"Sorry, I'm unable to commit to that time.",patient_rejection
-630,"No, I have a conflicting schedule.",patient_rejection
-631,"Unfortunately, I have a prior arrangement.",patient_rejection
-632,"No, I'm not available during that period.",patient_rejection
-633,"Sorry, I have another appointment.",patient_rejection
-634,"No, that doesn't fit with my schedule.",patient_rejection
-635,"Unfortunately, I'm occupied at that time.",patient_rejection
-636,"No, I have a prior engagement scheduled.",patient_rejection
-637,"Sorry, I have a conflicting event.",patient_rejection
-638,"No, I'm unavailable for that time.",patient_rejection
-639,"Unfortunately, that time doesn't work for me.",patient_rejection
-640,"No, I have a different commitment.",patient_rejection
-641,"Sorry, I have a prior obligation.",patient_rejection
-642,"No, I'm unable to make it then.",patient_rejection
-643,"Unfortunately, I have another arrangement.",patient_rejection
-644,"No, I can't attend at that time.",patient_rejection
-645,"Sorry, I'm already booked.",patient_rejection
-646,"No, that doesn't suit my schedule.",patient_rejection
-647,"Unfortunately, I'm not available then.",patient_rejection
-648,"No, I have other plans at that time.",patient_rejection
-649,"Sorry, I have a conflicting engagement.",patient_rejection
-650,"No, I can't make it for that appointment.",patient_rejection
-651,"Unfortunately, I have a conflicting commitment.",patient_rejection
-652,"No, I have a prior engagement.",patient_rejection
-653,"Sorry, I'm unavailable during that period.",patient_rejection
-654,"No, I'm not free for that time slot.",patient_rejection
+355,"Unfortunately, that time doesn't work for me.",patient_rejection
+356,I'm unable to make it at that scheduled time.,patient_rejection
+357,"Regrettably, I have a conflict at that time.",patient_rejection
+358,"Sorry, but I can't make it for that appointment.",patient_rejection
+359,"That time is not feasible for me, I need to cancel.",patient_rejection
+360,"Apologies, I won't be able to attend at that time.",patient_rejection
+361,I have prior commitments; can we reschedule?,patient_rejection
+362,I'm afraid that time doesn't fit my schedule.,patient_rejection
+363,"Unfortunately, I have another appointment then.",patient_rejection
+364,I need to decline that time; it's not convenient.,patient_rejection
+365,"Sorry, but I have a conflicting engagement.",patient_rejection
+366,"Unfortunately, I won't be available at that time.",patient_rejection
+367,That time doesn't work for me; can we adjust?,patient_rejection
+368,"I'm sorry, but I can't make it for that time.",patient_rejection
+369,I have a conflicting event; can we find another time?,patient_rejection
+370,"Unfortunately, I have a prior engagement.",patient_rejection
+371,"Sorry, that time doesn't suit my schedule.",patient_rejection
+372,"Regrettably, I need to decline that time slot.",patient_rejection
+373,"Apologies, I can't make it for that appointment.",patient_rejection
+374,"Unfortunately, I have another commitment.",patient_rejection
+375,"Sorry, that time doesn't work for me.",patient_rejection
+376,I'm unable to attend at that specific time.,patient_rejection
+377,"Unfortunately, I have something else planned.",patient_rejection
+378,"Sorry, but I have a conflict during that time.",patient_rejection
+379,That doesn't work for me; can we reschedule?,patient_rejection
+380,I have a conflicting appointment; need to cancel.,patient_rejection
+381,"Unfortunately, I won't be able to make it then.",patient_rejection
+382,"Sorry, that time is not feasible for me.",patient_rejection
+383,I have prior engagements; need to change.,patient_rejection
+384,"Unfortunately, I can't make it for that slot.",patient_rejection
+385,"Sorry, but that time doesn't fit my schedule.",patient_rejection
+386,I have a conflicting commitment at that time.,patient_rejection
+387,"Unfortunately, I have a conflicting schedule.",patient_rejection
+388,"Sorry, that time doesn't work for me; can we change?",patient_rejection
+389,I need to cancel as I have another appointment.,patient_rejection
+390,"Unfortunately, I won't be available at that time.",patient_rejection
+391,"Sorry, that time doesn't suit my availability.",patient_rejection
+392,"I can't make it at that scheduled time, sorry.",patient_rejection
+393,"Unfortunately, I have a conflicting event then.",patient_rejection
+394,"Sorry, I have a prior commitment at that time.",patient_rejection
+395,I'm unable to make it for that particular time.,patient_rejection
+396,"Unfortunately, that time doesn't work for me.",patient_rejection
+397,"Sorry, but I have something else scheduled.",patient_rejection
+398,I have a conflict; can we find another time?,patient_rejection
+399,"Unfortunately, I have another engagement then.",patient_rejection
+400,"Sorry, that time doesn't fit into my schedule.",patient_rejection
+401,I have a conflicting appointment; need to cancel.,patient_rejection
+402,"Unfortunately, I won't be able to make it then.",patient_rejection
+403,"Sorry, that time is not feasible for me.",patient_rejection
+404,I have prior engagements; need to change.,patient_rejection
+405,"Unfortunately, I can't make it for that slot.",patient_rejection
+406,"Sorry, but that time doesn't work for me.",patient_rejection
+407,I have a conflicting commitment at that time.,patient_rejection
+408,"Unfortunately, I have a conflicting schedule.",patient_rejection
+409,"Sorry, that time doesn't suit my availability.",patient_rejection
+410,I need to cancel as I have another appointment.,patient_rejection
+411,"Unfortunately, I won't be available at that time.",patient_rejection
+412,"Sorry, that time doesn't suit my schedule.",patient_rejection
+413,"I can't make it at that scheduled time, sorry.",patient_rejection
+414,"Unfortunately, I have a conflicting event then.",patient_rejection
+415,"Sorry, I have a prior commitment at that time.",patient_rejection
+416,I'm unable to make it for that particular time.,patient_rejection
+417,"Unfortunately, that time doesn't work for me.",patient_rejection
+418,"Sorry, but I have something else scheduled.",patient_rejection
+419,I have a conflict; can we find another time?,patient_rejection
+420,"Unfortunately, I have another engagement then.",patient_rejection
+421,"Sorry, that time doesn't fit into my schedule.",patient_rejection
+422,I have a conflicting appointment; need to cancel.,patient_rejection
+423,"Unfortunately, I won't be able to make it then.",patient_rejection
+424,"Sorry, that time is not feasible for me.",patient_rejection
+425,I have prior engagements; need to change.,patient_rejection
+426,"Unfortunately, I can't make it for that slot.",patient_rejection
+427,"Sorry, but that time doesn't work for me.",patient_rejection
+428,I have a conflicting commitment at that time.,patient_rejection
+429,"Unfortunately, I have a conflicting schedule.",patient_rejection
+430,"Sorry, that time doesn't suit my availability.",patient_rejection
+431,I need to cancel as I have another appointment.,patient_rejection
+432,"Unfortunately, I won't be available at that time.",patient_rejection
+433,"Sorry, that time doesn't suit my schedule.",patient_rejection
+434,"I can't make it at that scheduled time, sorry.",patient_rejection
+435,"Unfortunately, I have a conflicting event then.",patient_rejection
+436,"Sorry, I have a prior commitment at that time.",patient_rejection
+437,I'm unable to make it for that particular time.,patient_rejection
+438,"Unfortunately, that time doesn't work for me.",patient_rejection
+439,"Sorry, but I have something else scheduled.",patient_rejection
+440,I have a conflict; can we find another time?,patient_rejection
+441,"Unfortunately, I have another engagement then.",patient_rejection
+442,"Sorry, that time doesn't fit into my schedule.",patient_rejection
+443,I have a conflicting appointment; need to cancel.,patient_rejection
+444,"Unfortunately, I won't be able to make it then.",patient_rejection
+445,"Sorry, that time is not feasible for me.",patient_rejection
+446,I have prior engagements; need to change.,patient_rejection
+447,"Unfortunately, I can't make it for that slot.",patient_rejection
+448,"Sorry, but that time doesn't work for me.",patient_rejection
+449,I have a conflicting commitment at that time.,patient_rejection
+450,"Unfortunately, I have a conflicting schedule.",patient_rejection
+451,"Sorry, that time doesn't suit my availability.",patient_rejection
+452,I need to cancel as I have another appointment.,patient_rejection
+453,"Unfortunately, I won't be available at that time.",patient_rejection
+454,"Sorry, that time doesn't suit my schedule.",patient_rejection

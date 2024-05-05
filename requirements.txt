@@ -2,7 +2,8 @@ jupyter
 numpy
 matplotlib
 pandas
-scikit-learn
+scikit-learn==1.4.1.post1
 spacy
-fastapi
+fastapi==0.91.0
 uvicorn
+tensorflow<2.11

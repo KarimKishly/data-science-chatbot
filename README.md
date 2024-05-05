@@ -17,6 +17,12 @@ pip install -r requirements.txt
 while the virtual environment is activated to install the
 dependencies.
 
+After creating the virtual environment, a small English NLP
+model needs to be installed through the following command:
+```
+python -m spacy download en_core_web_sm
+```
+
 ## Running the Server
 To run the server, it is sufficient to run the `run-server.bat`
 file. By default, the server runs on **port 8000** and 

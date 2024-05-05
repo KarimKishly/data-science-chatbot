@@ -7,7 +7,6 @@ def extract_and_convert_date(sentence, day_part: datetime = datetime.fromtimesta
     nlp = spacy.load("en_core_web_sm")  # Load a small English NLP model
     doc = nlp(sentence)
 
-
     text: str = None
     time_text: str = None
     date_part = day_part
