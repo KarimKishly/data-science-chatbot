@@ -17,7 +17,7 @@ const App = () => {
       const response = await axios.post("http://localhost:8000/bot/message", {
         message,
       });
-      setResponse(response.data.response); // Set the response from the server
+      setResponse(response.data.response);
     } catch (error) {
       console.error(error);
     }
@@ -36,12 +36,10 @@ const App = () => {
     try {
       const response = await axios.post(
         "http://localhost:8000/clinician/setAvailability",
-        [tempAvailability] // Send selected availability as an array
+        [tempAvailability]
       );
-      console.log(response.data); // Log the server response
-      // Update availability in UI state
+      console.log(response.data);
       setAvailability([...availability, tempAvailability]);
-      // Reset temporary state
       setTempAvailability("");
     } catch (error) {
       console.error(error);
