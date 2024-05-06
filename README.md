@@ -13,6 +13,7 @@ If you already have a virtual environment for your the project,
 run
 ```
 pip install -r requirements.txt
+python -m spacy download en_core_web_sm
 ```
 while the virtual environment is activated to install the
 dependencies.
