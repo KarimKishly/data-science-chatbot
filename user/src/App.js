@@ -17,7 +17,7 @@ const App = () => {
       const response = await axios.post("http://localhost:8000/bot/message", {
         message,
       });
-      setResponse(response.data.response);
+      setResponse(response.data.response); // Set the response from the server
     } catch (error) {
       console.error(error);
     }
@@ -36,10 +36,12 @@ const App = () => {
     try {
       const response = await axios.post(
         "http://localhost:8000/clinician/setAvailability",
-        [tempAvailability]
+        [tempAvailability] // Send selected availability as an array
       );
-      console.log(response.data);
+      console.log(response.data); // Log the server response
+      // Update availability in UI state
       setAvailability([...availability, tempAvailability]);
+      // Reset temporary state
       setTempAvailability("");
     } catch (error) {
       console.error(error);
@@ -58,7 +60,7 @@ const App = () => {
   };
 
   return (
-    <div className="container p-4">
+    <div className="container mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">Clinician Chatbot</h1>
       <div className="mb-4">
         <h2 className="text-xl font-semibold">Bot</h2>
@@ -117,22 +119,22 @@ const App = () => {
           >
             Get Booked Appointments
           </button>
-          <ul>
+          <div className="mt-2 border border-gray-300 rounded p-4">
             {Object.entries(bookedAppointments).map(([date, appointments]) => (
-              <li key={date}>
+              <div key={date} className="mb-4">
                 <h4 className="font-semibold">{date}</h4>
-                <ul>
+                <div className="ml-4">
                   {appointments.map((appointment, index) => (
-                    <li key={index}>
-                      <p>Hour: {appointment.hour}</p>
+                    <div key={index} className="mb-2">
+                      <p className="font-semibold">Hour: {appointment.hour}</p>
                       <p>Patient: {appointment.patient}</p>
                       <p>Case: {appointment.case}</p>
-                    </li>
+                    </div>
                   ))}
-                </ul>
-              </li>
+                </div>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       </div>
       <div>
