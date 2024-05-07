@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Calendar2 from "./Calendar2";
-import Calendar1 from "./Calendar1";
 import CalendarComp from "./Calendar";
 
 const App = () => {
@@ -10,6 +8,7 @@ const App = () => {
   const [availability, setAvailability] = useState([]);
   const [tempAvailability, setTempAvailability] = useState(""); // Temporary state for selected date/time
   const [bookedAppointments, setBookedAppointments] = useState([]);
+  const [filteredAppointments, setFilteredAppointments] = useState([]);
 
   useEffect(() => {
     getBookedAppointments();
@@ -59,6 +58,10 @@ const App = () => {
     } catch (error) {
       console.error(error);
     }
+  };
+
+  const handleDateSelect = (appointments) => {
+    setFilteredAppointments(appointments);
   };
 
   return (
@@ -137,30 +140,31 @@ const App = () => {
               </div>
             ))}
           </div>
-          {/* <table className="mt-2 border border-gray-300 rounded p-4">
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Appointments</th>
-              </tr>
-            </thead>
-            <tbody>
-              {Object.entries(bookedAppointments).map(
-                ([date, appointments]) => (
-                  <tr key={date}>
-                    <td>{date}</td>
-                    <td>{countAppointmentsForDay(date)}</td>
-                  </tr>
-                )
-              )}
-            </tbody>
-          </table> */}
-          {/* <Calendar2 bookedAppointments={bookedAppointments} /> */}
-          {/* <Calendar1 bookedAppointments={bookedAppointments} /> */}
-          <CalendarComp />
+          <CalendarComp
+            bookedAppointments={bookedAppointments}
+            onDateSelect={handleDateSelect}
+          />
+        </div>
+
+        <div>
+          <h2 className="text-xl font-semibold">Filtered Appointments</h2>
+          <div className="mt-2 border border-gray-300 rounded p-4">
+            {filteredAppointments.length > 0 ? (
+              filteredAppointments.map((appointment, index) => (
+                <div key={index} className="mb-2">
+                  <p className="font-semibold">Hour: {appointment.hour}</p>
+                  <p>Patient: {appointment.patient}</p>
+                  <p>Case: {appointment.case}</p>
+                </div>
+              ))
+            ) : (
+              <p>No appointments for the selected date.</p>
+            )}
+          </div>
         </div>
       </div>
       <div>
+        {/* <div className="hidden"> */}
         <h2 className="text-xl font-semibold">Current States</h2>
         <p>Message: {message}</p>
         <p>Response: {response}</p>
