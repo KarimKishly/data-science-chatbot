@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import Calendar2 from "./Calendar2";
+import Calendar1 from "./Calendar1";
+import CalendarComp from "./Calendar";
 
 const App = () => {
   const [message, setMessage] = useState("");
@@ -36,10 +39,9 @@ const App = () => {
     try {
       const response = await axios.post(
         "http://localhost:8000/clinician/setAvailability",
-        [tempAvailability] // Send selected availability as an array
+        [tempAvailability]
       );
-      console.log(response.data); // Log the server response
-      // Update availability in UI state
+      console.log(response.data);
       setAvailability([...availability, tempAvailability]);
       // Reset temporary state
       setTempAvailability("");
@@ -62,7 +64,7 @@ const App = () => {
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">Clinician Chatbot</h1>
-      <div className="mb-4">
+      <div className="Bot mb-4">
         <h2 className="text-xl font-semibold">Bot</h2>
         <input
           type="text"
@@ -84,9 +86,9 @@ const App = () => {
           Reset Bot
         </button>
       </div>
-      <div className="mb-4">
+      <div className="Clinician mb-4">
         <h2 className="text-xl font-semibold">Clinician</h2>
-        <div className="mb-4">
+        <div className="Set-availability mb-4">
           <h3 className="text-lg font-semibold">Set Availability</h3>
           <input
             type="datetime-local"
@@ -111,7 +113,7 @@ const App = () => {
             </div>
           )}
         </div>
-        <div>
+        <div className="Booked-Appointments">
           <h3 className="text-lg font-semibold">Booked Appointments</h3>
           <button
             onClick={getBookedAppointments}
@@ -135,6 +137,27 @@ const App = () => {
               </div>
             ))}
           </div>
+          {/* <table className="mt-2 border border-gray-300 rounded p-4">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Appointments</th>
+              </tr>
+            </thead>
+            <tbody>
+              {Object.entries(bookedAppointments).map(
+                ([date, appointments]) => (
+                  <tr key={date}>
+                    <td>{date}</td>
+                    <td>{countAppointmentsForDay(date)}</td>
+                  </tr>
+                )
+              )}
+            </tbody>
+          </table> */}
+          {/* <Calendar2 bookedAppointments={bookedAppointments} /> */}
+          {/* <Calendar1 bookedAppointments={bookedAppointments} /> */}
+          <CalendarComp />
         </div>
       </div>
       <div>
