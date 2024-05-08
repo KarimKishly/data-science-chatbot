@@ -12,6 +12,11 @@ different iterations of data generation that
 were performed, as the data was generated
 by the team.
 
+The model can be tested by running the
+`test_model.py` python file, and the file
+can be modified to take different input messages
+from the user to be analyzed by the model.
+
 ## Dependencies
 Run the `install-dependencies.bat` file to create the python
 virtual environment and install the required python dependencies
