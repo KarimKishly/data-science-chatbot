@@ -8,3 +8,4 @@ fastapi==0.91.0
 uvicorn
 tensorflow<2.11
 seaborn
+prophet

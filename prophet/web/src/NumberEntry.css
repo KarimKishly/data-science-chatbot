@@ -1,0 +1,70 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+    margin-right: 18px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: #0e0202;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .timer {
+    padding-right: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .numbers {
+    margin-bottom: 20px;
+    padding-right: 10px;
+  }
+  
+  .numbers-label {
+    font-weight: bold;
+    padding-right: 10px;
+  }
+  
+  .numbers-list {
+    list-style: none;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+  
+  .numbers-list li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
