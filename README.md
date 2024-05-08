@@ -5,6 +5,13 @@ an appointment with a clinician. It uses **Python 3.9.13**
 and simple scikit-learn libraries to achieve this
 functionality.
 
+The saved models, in addition to the datasets used,
+can be found under the `assets` directory. Several
+versions of the dataset can be found due to the
+different iterations of data generation that
+were performed, as the data was generated
+by the team.
+
 ## Dependencies
 Run the `install-dependencies.bat` file to create the python
 virtual environment and install the required python dependencies
