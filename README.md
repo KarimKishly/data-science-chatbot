@@ -36,3 +36,15 @@ uvicorn main:app --port $port_number
 ```
 The Swagger UI to visualize the API endpoints can be accessed
 at localhost:8000/docs for the default port 8000.
+
+## Running the Web Interface
+The `run-ui.bat` file launches the web interface on port 3000.
+The web interface is built on the **React** framework and requires
+its dependencies to be installed before launch.
+
+## Bonus: Prophet Model
+The prophet model is a time series model to predict future data
+based on past data on a day-by-day basis. It can be found under
+the `prophet` directory. The prophet service can be started using
+the `prophet/run-service.bat` file, while its web interface
+can be run using the `prophet/run-web.bat` file.
