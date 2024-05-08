@@ -1,12 +1,15 @@
-import numpy as np
 from services.bot_states import BotStates
 import json, joblib
-from sklearn.naive_bayes import MultinomialNB
 from sklearn.feature_extraction.text import TfidfVectorizer
 from random import choice
 from services.booking_calendar import BookingCalendar
 from datetime import datetime
 from services.date_extraction import extract_and_convert_date
+import tensorflow as tf
+import numpy as np
+from tensorflow.keras.models import Sequential, load_model
+from sklearn.preprocessing import LabelEncoder
+import os
 
 
 class Chatbot:
@@ -21,8 +24,11 @@ class Chatbot:
 
     end = False
 
-    vectorizer: TfidfVectorizer = joblib.load('assets/vectorizer.joblib')
-    model: MultinomialNB = joblib.load('assets/svm_model.joblib')
+    os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
+
+    le: LabelEncoder = joblib.load('assets/label_encoder.joblib')
+    model: Sequential = load_model('assets/neural_network.h5')
+    tfidf_vectorizer: TfidfVectorizer = joblib.load('assets/nn_vectorizer.joblib')
 
     with open('assets/chatbot/bot_greetings.txt', 'r') as f:
         greetings: list = json.loads(f.read())
@@ -133,8 +139,9 @@ class Chatbot:
         return choice(Chatbot.confirmation)
     @staticmethod
     def __analyzeMessage(message: str) -> str:
-        tfidf = Chatbot.vectorizer.transform(np.array([message]))
-        analysis = Chatbot.model.predict(tfidf)
+        analysis = Chatbot.le.inverse_transform(tf.math.argmax(Chatbot.model
+                                            .predict(Chatbot.tfidf_vectorizer
+                                                     .transform(np.array([message])).toarray()), axis=1))
         return analysis[0]
 
 
