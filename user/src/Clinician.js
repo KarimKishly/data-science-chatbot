@@ -97,14 +97,14 @@ function Clinician() {
               <ul className="mt-2 border border-gray-300 rounded p-4">
                 {availability.sort().map((slot, index) => (
                   <li key={index}>
-                    {moment(slot).format("MMMM Do YYYY | hh:mm A")}
+                    {moment(slot).format("MMMM Do YYYY | hh:00 A")}
                   </li>
                 ))}
               </ul>
             </div>
           )}
         </div>
-        <div className="flex gap-10">
+        <div className="flex gap-10 justify-center border-t border-gray-300 pt-4">
           <CalendarComp
             bookedAppointments={bookedAppointments}
             onDateSelect={handleDateSelect}
@@ -120,7 +120,7 @@ function Clinician() {
                 filteredAppointments.map((appointment, index) => (
                   <div key={index} className="mb-2">
                     <p className="font-semibold">
-                      - Hour: {moment().hour(appointment.hour).format("h:mm A")}
+                      - Hour: {moment().hour(appointment.hour).format("h:00 A")}
                     </p>
                     <p>Patient: {appointment.patient}</p>
                     <p>Case: {appointment.case}</p>
@@ -151,7 +151,7 @@ function Clinician() {
                     <div key={index} className="mb-2">
                       <p className="font-semibold">
                         - Hour:{" "}
-                        {moment().hour(appointment.hour).format("h:mm A")}
+                        {moment().hour(appointment.hour).format("h:00 A")}
                       </p>
                       <p>Patient: {appointment.patient}</p>
                       <p>Case: {appointment.case}</p>

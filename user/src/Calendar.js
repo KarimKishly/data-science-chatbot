@@ -47,6 +47,11 @@ export default function CalendarComp({
           background-color: red;
           color: white;
         }
+        
+        .react-calendar{
+          width: 500px;
+        }
+
       `}</style>
       <Calendar
         value={dateState}

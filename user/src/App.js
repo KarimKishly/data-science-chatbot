@@ -8,7 +8,7 @@ const App = () => {
     <Router>
       <div className="container mx-auto p-4">
         <Routes>
-          <Route path="/bot" element={<Bot />} />
+          <Route path="/" element={<Bot />} />
           <Route path="/clinician" element={<Clinician />} />
         </Routes>
       </div>
